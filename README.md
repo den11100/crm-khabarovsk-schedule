@@ -280,7 +280,7 @@ X-Api-Key: {your_api_key}
 | `crm_appointment_id`    | int     | crm.appointment.id  - выдан при резервировании слота       |
 
 
-### Пример запроса 1
+### Пример запроса
 ```json
 {
   "crm_appointment_id": 144555,  
@@ -291,7 +291,7 @@ X-Api-Key: {your_api_key}
 ```json
 {
     "status": "success",
-    "data": "Запись успешно удалена"
+    "data": ["Запись успешно удалена"]
 }
 ```
 
