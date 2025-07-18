@@ -191,7 +191,7 @@ X-Api-Key: {your_api_key}
   "p_patronymic": "Иванович",
   "p_sex": 1,
   "p_phone": "79001234567",
-  "p_birth": "1980-12-30",
+  "p_birth": "1980-12-30"
 }
 ```
 
@@ -272,7 +272,7 @@ X-Api-Key: {your_api_key}
   "crm_room_id": 3,
   "analysis_id": 25,
   "dt": "2025-05-21",
-  "time_start": "08:00:00",
+  "time_start": "08:00:00"
 }
 ```
 
@@ -333,7 +333,7 @@ X-Api-Key: {your_api_key}
   "p_patronymic": "Иванович",
   "p_sex": 1,
   "p_phone": "79001234567",
-  "p_birth": "1980-12-30",
+  "p_birth": "1980-12-30"
 }
 ```
 
@@ -386,7 +386,7 @@ X-Api-Key: {your_api_key}
 ### Пример запроса
 ```json
 {
-  "crm_appointment_id": 144555,  
+  "crm_appointment_id": 144555
 }
 ```
 
@@ -424,5 +424,6 @@ X-Api-Key: {your_api_key}
 | 12  | `CODE_VALIDATION`             | Ошибка валидации модели — некорректные или пустые значения.      |
 | 13  | `CODE_VALIDATION_OR_NO_VACANT`| Ошибка валидации модели или слот занят                           |
 | 14  | `CODE_ERROR_CONFIRM`          | Ошибка подтверждения слота.                                      |
+| 16  | `CODE_ALREADY_TAKEN`          | Данное время уже занято.                                         |
 
 
